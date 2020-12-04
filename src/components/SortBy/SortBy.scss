@@ -1,0 +1,24 @@
+.button {
+    background-color: #0072CE;
+    color: white;
+    width: 150px;
+    height: 30px;
+}
+
+.sortBar {
+    width: 100%;
+}
+
+.list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.title {
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}

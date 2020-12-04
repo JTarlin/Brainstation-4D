@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="main__header">
+    <header className="main__header" style={{width: "100%"}}>
       <Link to="/">
         <img
           src={process.env.PUBLIC_URL + "/walmart.png"}
