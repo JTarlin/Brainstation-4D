@@ -1,0 +1,18 @@
+.search {
+    height: 15px;
+    width: 200px;
+    border-radius: 7px;
+    padding: 3px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: center;
+}
+
+.navList {
+    display: flex;
+    width: 70%;
+    list-style-type: none;
+    justify-content: space-around;
+}
