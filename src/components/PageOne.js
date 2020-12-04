@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import CategorySelect from "./CategorySelect/CategorySelect";
 
 function PageOne() {
   return (
@@ -6,6 +7,7 @@ function PageOne() {
       <Link to="/pagetwo">
         <span>PAGE ONE </span>
       </Link>
+      <CategorySelect />
     </div>
   );
 }
