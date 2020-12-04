@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
-
+import Header from "./Header";
 function PageOne() {
   return (
     <div>
+      <Header />
       <Link to="/pagetwo">
-        <span>PAGE ONE </span>
+        <span>PAGE TWO </span>
       </Link>
     </div>
   );
