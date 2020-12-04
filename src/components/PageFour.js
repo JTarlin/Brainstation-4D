@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom";
 
-function PageTwo() {
+function PageFour() {
   return (
     <div>
       <Link to="/">
         <span>PAGE ONE</span>
+      </Link>
+      <Link to="/pagetwo">
+        <span>PAGE TWO</span>
       </Link>
       <Link to="/pagethree">
         <span>PAGE THREE</span>
@@ -13,4 +16,4 @@ function PageTwo() {
   );
 }
 
-export default PageTwo;
+export default PageFour;
