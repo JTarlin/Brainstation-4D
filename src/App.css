@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.header__logo {
+  width: 160px;
+  height: 88px;
+}
+.main__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  border-bottom: 2px solid grey;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  box-shadow: 0 2px 6px grey;
+}
+.main__button {
+  width: 90px;
+  height: 30px;
+  border: none;
+  color: #fafafa;
+  background-color: yellowgreen;
+  border-radius: 4px;
+}
