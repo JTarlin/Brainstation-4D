@@ -1,16 +1,15 @@
 import { Link } from "react-router-dom";
 import Header from "./Header";
+import SearchSort from "./SearchSort/SearchSort";
 function PageTwo() {
   return (
     <span>
       <Header />
-      <div>
-        <Link to="/">
-          <span>PAGE ONE</span>
-        </Link>
-        <Link to="/pagethree">
-          <span>PAGE THREE</span>
-        </Link>
+      <div style={{display: "flex"}}>
+        <div></div>
+        <div>
+          <SearchSort/>
+        </div>
       </div>
     </span>
   );
