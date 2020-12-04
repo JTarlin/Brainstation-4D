@@ -1,18 +1,20 @@
 import { Link } from "react-router-dom";
 import Header from "./Header";
-import Aside from "./Aside";
+import SearchSort from "./SearchSort/SearchSort";
+import SortBy from "./SortBy/SortBy";
+// import DataGraphs from
+
 function PageTwo() {
   return (
     <span>
       <Header />
-      <div>
-        <Link to="/">
-          <span>PAGE ONE</span>
-        </Link>
-        <Link to="/pagethree">
-          <span>PAGE THREE</span>
-        </Link>
-        <Aside />
+      <div style={{ display: "flex" }}>
+        <div></div>
+        <div style={{ width: "100%" }}>
+          <SearchSort />
+          <SortBy />
+          {/* <DataGraphs /> */}
+        </div>
       </div>
     </span>
   );
