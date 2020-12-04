@@ -59,3 +59,15 @@
   background-color: yellowgreen;
   border-radius: 4px;
 }
+
+.left__column {
+  padding-top: 4.5rem;
+  padding-bottom: 1rem;
+  width: 20vw;
+  height: 100vw;
+  background: #1a75cf;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 90px;
+}

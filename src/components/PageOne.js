@@ -1,12 +1,18 @@
-import { Link } from "react-router-dom";
+
+import CategorySelect from "./CategorySelect/CategorySelect";
+import SearchSort from "./SearchSort/SearchSort";
+
 import Header from "./Header";
+
 function PageOne() {
   return (
-    <div>
+    <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
       <Header />
-      <Link to="/pagetwo">
-        <span>PAGE TWO </span>
-      </Link>
+     <div style={{width: "650px"}}>
+        <SearchSort />
+        <CategorySelect />
+     </div>
+      
     </div>
   );
 }
